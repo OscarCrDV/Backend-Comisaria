@@ -84,6 +84,7 @@ const updateSoporte = async (req, res = response) => {
 
 const deleteSoporte= async (req, res = response) => {
 
+   
     const SoportePolicialId = req.params.id;
     const uid = req.uid;
 
