@@ -23,6 +23,7 @@ app.use( express.json() );
 //Rutas
 app.use('/api/auth', require('./routes/auth') );
 app.use('/api/reportes_policiales', require('./routes/events_reporte_policial') );
+app.use('/api/soportes_policiales', require('./routes/evets_soporte_policial') );
 
 
 //Escuchar peticiones
